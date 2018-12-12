@@ -1,0 +1,173 @@
+body{
+  background-color: white;
+  margin:0px;
+  font-family: Verdana, Georgia,serif;
+  font-size: 14px;
+
+}
+
+#navbar{
+  background-color: white;
+  border-top: 2px solid orange;
+  border-bottom: 1px solid;
+  border-left: 1px  solid;
+  border-right: 1px solid;
+  margin:10px;
+  height:45px;
+  border-radius: 5px;
+
+
+}
+/*#navbar ul{
+  list-style-type: none;
+  text-align: center;
+
+  margin: 10px;
+  border-radius: 5px;
+  float:right;
+
+}*/
+
+
+
+
+
+
+#navbar button, a{
+  background-color: #008CBA;
+    border: none;
+    color: #ffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding:8px;
+    border-radius: 5px;
+    width:70px;
+    float:right;
+    margin:2px;
+
+}
+#navbar i{
+  float:left;
+
+
+}
+.col-3 ul li a{
+  background-color: black;
+  float: none;
+  padding: 0px;
+  border-radius: 0px;
+  border: none;
+  margin:0px;
+  margin-bottom: 2px;
+
+
+
+
+}
+.col-3 b {
+  background-color: white;
+  margin-bottom: 5px;
+  
+}
+
+
+#footer{
+  background-color: black;
+  height: 200px;
+
+}
+.col-3{
+  width:33%;
+  float:left;
+
+}
+
+h3{
+  color: #ffff;
+}
+ li{
+  list-style:none;
+  font-family: cursive;
+  font-size: 14px;
+
+}
+#navbar input[type=text]{
+  padding: 6px;
+  border: 1px solid;
+  margin-top: 8px;
+  margin-right: 20px;
+  font-size: 17px;
+  margin-left: 40px;
+}
+
+/* login forms */
+/*body{
+  background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6));
+  background-size: cover;
+  background-position: center;
+  height: 100vh;*/
+
+
+}
+.login-page{
+  width:360px;
+  padding:10% 0 0;
+  margin:auto;
+}
+.form{
+  position: relative;
+  z-index: 1;
+  background: rgba(7,40,195,0.8);
+  max-width: 360px;
+  margin:0 auto 100px;
+  padding:45px;
+  text-align: center;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 1;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin:0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+
+}
+.form button{
+  font-family: "Roboto", sans-serif;
+  text-transform:uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+
+
+
+}
+.form button:hover,.form button:active{
+  background: #43A047;
+
+
+}
+.form .message{
+  margin:15px 0 0;
+  color:aliceblue;
+  font-size: 12px;
+}
+.form .message a{
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .registration-form{
+  display:none;
+}
+h1{
+  text-align: center;
+}
