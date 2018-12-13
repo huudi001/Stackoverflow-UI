@@ -3,6 +3,7 @@ body{
   margin:0px;
   font-family: Verdana, Georgia,serif;
   font-size: 14px;
+  min-height: 700px;
 
 }
 
@@ -68,13 +69,13 @@ body{
 .col-3 b {
   background-color: white;
   margin-bottom: 5px;
-  
+
 }
 
 
 #footer{
   background-color: black;
-  height: 200px;
+  height: 250px;
 
 }
 .col-3{
